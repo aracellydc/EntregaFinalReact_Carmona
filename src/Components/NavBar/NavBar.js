@@ -1,17 +1,16 @@
 import logo from '../CartWidget/assets/logo.jpg'
-// import Button from 'react-bootstrap/Button';
-// import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Button from 'react-bootstrap/Button';
 
 import CartWidget from "../CartWidget/CartWidget"
 
-const NavBar = () => {
+function NavBar () {
     return(
-        <nav>
+        <nav className= "flex p-2 justify-between bg-blue-300 ">
+            
             <img src={logo} alt="logo tienda" width="100px"></img>
             <h3>SIDE OF ME</h3>
-            {/* <img src={logo} alt="logo tienda" width="100px"></img> */}
             <div>
-                <button>Nuevo Ingreso</button>
+                <Button>Nuevo Ingreso</Button>
                 <button>Ultimo Stock</button>
                 <button>Nosotros</button>
                 <button>Contacto</button>
