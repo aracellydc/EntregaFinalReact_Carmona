@@ -1,11 +1,11 @@
-import carrito from './assets/carrito.png'
+// import carrito from './assets/carrito.png'
 
 const CartWidget = () => {
     return(
-        <div>
-            <img src={carrito} alt="carrito-widget" width="25px" />
-            0
-        </div>
+        <>
+        <a href="#" className='material-icons'>shopping_cart </a>
+        0  
+        </>
     )
 }
 

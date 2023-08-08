@@ -1,21 +1,23 @@
 import logo from '../CartWidget/assets/logo.jpg'
-import Button from 'react-bootstrap/Button';
+import { Link, NavLink } from "react-router-dom"
 
 import CartWidget from "../CartWidget/CartWidget"
 
 function NavBar () {
     return(
-        <nav className= "flex p-2 justify-between bg-blue-300 ">
-            
+        <nav className= "panel_nav">
+        <Link to = '/'>
             <img src={logo} alt="logo tienda" width="100px"></img>
-            <h3>SIDE OF ME</h3>
-            <div>
-                <Button>Nuevo Ingreso</Button>
-                <button>Ultimo Stock</button>
-                <button>Nosotros</button>
-                <button>Contacto</button>
-            </div>
+        </Link>
+        <div className='Categories'>
+            <NavLink to="/">Productos</NavLink>
+            <NavLink to={`/categoria/polos`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Polos</NavLink>
+            <NavLink to={`/categoria/blusas`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Blusas</NavLink>
+            <NavLink to={`/categoria/joggers`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Joggers</NavLink>
+
             <CartWidget />
+        </div>
+
         </nav>
     )
 }

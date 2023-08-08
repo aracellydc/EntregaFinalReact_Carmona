@@ -1,16 +1,130 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  height: 100%;
+  background-color: rgba(246, 201, 208, 0.552);
 }
 
+main{
+  height: 200px;
+}
 
-.App-header {
+.panel_nav{
+  background-color: rgba(171, 145, 149, 0.29);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Contenedor{
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.ListGroup{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.CardItem{
+  background-color: rgba(245, 245, 220, 0.589);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.Header{
+  font-size: 18px;
+}
+
+.ItemImg {
+  width: 100%;
+}
+
+.Info{
+  font-size: 18px;
+}
+
+.Button{
+  text-decoration: none;
+  background-color: rgba(165, 42, 42, 0.819);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.CardItemDetail{
+  background-color: rgba(245, 245, 220, 0.589);
+  margin: 40px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+
+.Detalle{
+  display: flex;
+  flex-direction: row;
+}
+
+.ItemImgDetail {
+  width: 80%;
+}
+
+.InfoDetail{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.Controls{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.Categories{
+  display: flex;
+  align-items: end;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.Categories a{
+  text-decoration: none;
+}
+
+.Footer{
+  background-color: rgba(171, 145, 149, 0.556);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 5px;
 
 }
 
-*{padding: 3px;
-  box-sizing: border-box;
-  background-color: rgba(246, 201, 208, 0.804);
 
-}
+
+
+
+
+
