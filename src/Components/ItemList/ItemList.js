@@ -1,7 +1,6 @@
 
 import Item from "../Item/Item"
 
-//function ItemList(props) {
 const ItemList = ({productos}) => {
     return (
         <div className="ListGroup">

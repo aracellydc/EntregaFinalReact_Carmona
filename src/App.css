@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   height: 100%;
   background-color: rgba(246, 201, 208, 0.552);
@@ -20,56 +23,68 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 15px;
+  gap: 20px;
 }
 
 .ListGroup{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 20px;
 }
 
 .CardItem{
   background-color: rgba(245, 245, 220, 0.589);
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 250px;
+  width: 200px;
 }
 
 .Header{
-  font-size: 18px;
+  font-size: 17px;
+  margin-bottom: 20px;
 }
 
-.ItemImg {
-  width: 100%;
+.CardItem img{
+  width: 180px;
+  height: auto
+
 }
 
 .Info{
-  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.Info p{
+  font-size: 17px;
 }
 
 .Button{
   text-decoration: none;
   background-color: rgba(165, 42, 42, 0.819);
   color: white;
-  padding: 8px;
-  border-radius: 5px;
-  font-size: 16px;
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .CardItemDetail{
   background-color: rgba(245, 245, 220, 0.589);
-  margin: 40px;
+  margin: 30px;
   padding: 20px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 550px;
 }
 
 .Detalle{
@@ -82,7 +97,7 @@ main{
 }
 
 .InfoDetail{
-  width: 600px;
+  width: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,13 +125,76 @@ main{
   text-decoration: none;
 }
 
+.DetalleFinal{
+  background-color: rgba(126, 160, 173, 0.6);
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.header{
+  font-weight: bold ;
+  font-size: 17px;
+}
+
+h3{
+  display: flex;
+  justify-content: end;
+  margin-right: 300px;
+  font-size: 22px;
+}
+
+.Botons{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  gap: 20px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Container{
+  background-color: rgb(225, 148, 148) ;
+  margin: 40px 350px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.Form{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 18px;
+}
+
+.Label{
+  display: flex;
+  justify-content: center;
+}
 .Footer{
   background-color: rgba(171, 145, 149, 0.556);
   color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
-  align-content: center;
   justify-content: center;
   padding: 5px;
 

@@ -2,8 +2,6 @@ import {useState} from 'react'
 
 const ItemCount = ({initial, stock, onAdd}) => {
 
-// function ItemCount(initial, stock, onAdd) {
-
     const [cantidad,setCantidad] = useState(initial)
 
 
