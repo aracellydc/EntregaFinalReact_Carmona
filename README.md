@@ -14,8 +14,8 @@
 * Se implementa CSS para darle estilos a la página
 
 ## Deploy en vercel: 
-[sideofme-react](petshop-react-flame.vercel.app)
+[sideofme-react](entrega-final-react-carmona.vercel.app)
 
 
 
-#### PreEntregaFinal_Carmona
+#### EntregaFinalReactJs_Carmona
